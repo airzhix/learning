@@ -5,6 +5,7 @@ mod error_handling;
 mod functions;
 mod generics_traits;
 mod iterators;
+mod modules;
 mod ownership;
 mod structs_enums;
 mod variables;
@@ -41,4 +42,7 @@ fn main() {
 
     println!("\n10. 泛型和 trait");
     generics_traits::demo();
+
+    println!("\n11. 模块系统");
+    modules::demo();
 }
