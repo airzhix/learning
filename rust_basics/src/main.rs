@@ -1,8 +1,10 @@
 mod control_flow;
+mod closures;
 mod data_types;
 mod error_handling;
 mod functions;
 mod generics_traits;
+mod iterators;
 mod ownership;
 mod structs_enums;
 mod variables;
@@ -31,6 +33,12 @@ fn main() {
     println!("\n7. 错误处理");
     error_handling::demo();
 
-    println!("\n8. 泛型和 trait");
+    println!("\n8. 闭包");
+    closures::demo();
+
+    println!("\n9. 迭代器");
+    iterators::demo();
+
+    println!("\n10. 泛型和 trait");
     generics_traits::demo();
 }
