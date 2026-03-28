@@ -1,0 +1,15 @@
+# Global code owners
+* @airzhix
+
+# Rust source files
+*.rs @airzhix
+
+# Configuration files
+Cargo.toml @airzhix
+Cargo.lock @airzhix
+
+# GitHub workflows
+.github/workflows/ @airzhix
+
+# Documentation
+README.md @airzhix

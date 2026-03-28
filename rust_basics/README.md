@@ -1,6 +1,34 @@
 # Rust 基础语法示例
 
+[![CI](https://github.com/airzhix/learning/actions/workflows/ci.yml/badge.svg)](https://github.com/airzhix/learning/actions/workflows/ci.yml)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 这是一个 Rust 编程语言的基础语法学习项目，涵盖了 Rust 的核心概念和常用语法。
+
+## 🚀 快速开始
+
+### 前置要求
+- Rust 1.70+ (推荐使用最新稳定版)
+- Cargo (Rust 包管理器)
+
+### 安装和运行
+```bash
+# 克隆项目
+git clone https://github.com/airzhix/learning.git
+cd rust_basics
+
+# 运行项目
+cargo run
+
+# 运行测试
+cargo test
+
+# 检查代码格式
+cargo fmt --check
+
+# 运行代码检查
+cargo clippy
+```
 
 ## 项目结构
 
@@ -103,6 +131,34 @@ rust_basics/
 - [Rust By Example](https://doc.rust-lang.org/rust-by-example/)
 - [Rust 标准库文档](https://doc.rust-lang.org/std/)
 
-## 许可证
+## 🤝 贡献指南
 
-本项目仅供学习使用。
+我们欢迎贡献！请在提交 Pull Request 之前：
+
+1. Fork 本仓库
+2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 打开 Pull Request
+
+### 代码规范
+
+- 使用 `cargo fmt` 格式化代码
+- 使用 `cargo clippy` 检查代码质量
+- 确保所有测试通过 (`cargo test`)
+
+## 🐛 报告问题
+
+如果您发现了 bug 或者有功能建议，请：
+
+1. 检查是否已有相关 issue
+2. 使用 [Issue 模板](https://github.com/airzhix/learning/issues/new/choose) 创建新 issue
+3. 提供详细的复现步骤和环境信息
+
+## 📄 许可证
+
+本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
+
+## 🙏 致谢
+
+感谢所有为 Rust 生态做出贡献的开发者们！

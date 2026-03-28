@@ -1,6 +1,17 @@
 [package]
 name = "rust_basics"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
+authors = ["airzhix"]
+description = "A comprehensive Rust programming language basics learning project"
+homepage = "https://github.com/airzhix/learning"
+repository = "https://github.com/airzhix/learning"
+license = "MIT"
+keywords = ["rust", "tutorial", "learning", "basics"]
+categories = ["tutorial"]
+readme = "README.md"
 
 [dependencies]
+
+[dev-dependencies]
+criterion = "0.5"
