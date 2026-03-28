@@ -36,15 +36,23 @@ cargo clippy
 rust_basics/
 ├── Cargo.toml
 ├── src/
-│   ├── main.rs          # 主程序入口
-│   ├── variables.rs     # 变量和可变性示例
-│   ├── data_types.rs    # 基本数据类型示例
-│   ├── functions.rs     # 函数示例
-│   ├── control_flow.rs  # 控制流示例
-│   ├── ownership.rs     # 所有权和借用示例
-│   ├── structs_enums.rs # 结构体和枚举示例
-│   ├── error_handling.rs# 错误处理示例
-│   └── generics_traits.rs# 泛型和 trait 示例
+│   ├── main.rs              # 主程序入口
+│   ├── variables.rs         # 变量和可变性示例
+│   ├── data_types.rs        # 基本数据类型示例
+│   ├── functions.rs         # 函数示例
+│   ├── control_flow.rs      # 控制流示例
+│   ├── ownership.rs         # 所有权和借用示例
+│   ├── structs_enums.rs     # 结构体和枚举示例
+│   ├── error_handling.rs    # 错误处理示例
+│   ├── generics_traits.rs   # 泛型和 trait 示例
+│   ├── closures.rs          # 闭包示例
+│   ├── iterators.rs         # 迭代器示例
+│   └── modules/             # 模块系统示例
+│       ├── mod.rs           # 模块定义
+│       ├── visibility.rs    # 可见性控制
+│       ├── use_statements.rs# use 语句
+│       ├── nested_modules.rs# 嵌套模块
+│       └── reexports.rs     # 重新导出
 └── README.md
 ```
 
